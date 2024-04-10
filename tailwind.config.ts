@@ -19,6 +19,10 @@ const config = {
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },
+      lineHeight:{
+tight:'1.2'
+
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

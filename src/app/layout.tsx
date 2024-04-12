@@ -25,7 +25,11 @@ export default function RootLayout({
       <body    className={cn(
           "min-h-screen bg-background font-sans antialiased",
           fontSans.variable
-        )}>{children}</body>
+        )}>{children}
+        <div id="modals"></div>
+        
+        </body>
+
     </html>
   );
 }
